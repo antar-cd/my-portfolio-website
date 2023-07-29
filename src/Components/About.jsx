@@ -20,7 +20,7 @@ const About = () => {
                         <div className='text-gray-300 my-3'>
                             <p className='text-justify leading-7 w-11/12 mx-auto'>Hello again! Thanks for scrolling this far!! I have completed my Diploma in Agriculture from Agriculture Training Institute, Begumganj,Noakhali.</p>
                             <br />
-                            <p> I am a passionate front-end developer from figital Bangladesh. I have a strong love for creating beautiful and user-friendly websites that leave a lasting impression.
+                            <p> I am a passionate front-end developer from digital Bangladesh. I have a strong love for creating beautiful and user-friendly websites that leave a lasting impression.
                                 Other than coding, I spend most of my free time playing video games . I've also been trying to read more so feel free to reach out to me with any book recommendations!</p><div className='flex mt-10 items-center gap-7'>
                                 {
                                     info.map(content =>(
