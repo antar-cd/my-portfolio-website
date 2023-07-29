@@ -6,7 +6,7 @@ const About = () => {
     const info =[
         {text:'Years experience', count:'01'},
         {text:'Completed Projects', count:'04'},
-        {text:'Companies Work',count:'01'}
+        {text:'Companies Work',count:'00'}
     ]
     return (
         <section id='about' className='py-10 text-white'>
