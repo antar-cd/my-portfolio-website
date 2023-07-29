@@ -2,6 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/Country-project.png";
 import project2 from "../assets/to-do.png"
+import project3 from "../assets/medicine-doctor.png"
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -9,20 +10,23 @@ import "swiper/css/pagination";
 
 const Project = () => {
   const projects = [
-    {
+    { 
+      name: "Rest Country Api",
       img: project1,
       github_link: "https://github.com/antar-cd/rest-counrty-api.git",
       live_link: "https://beamish-mochi-9d16e6.netlify.app/",
     },
     {
+      name: 'To Do App',
       img: project2,
       github_link: "https://github.com/antar-cd/to-do-app.git",
       live_link: "https://to-do-app-fawn-iota.vercel.app/",
     },
     {
-      img: project2,
+      name: 'Medicine Doctor',
+      img: project3,
       github_link: "https://github.com/antar-cd/medicine-doctor-client.git",
-      live_link: "https://to-do-app-fawn-iota.vercel.app/",
+      live_link: "https://quiet-sorbet-81635e.netlify.app/",
     }
   ];
   return (
@@ -35,13 +39,13 @@ const Project = () => {
       </div>
       <br />
       <div className="flex max-w-6xl px-5 mx-auto items-center relative">
-        <div className="lg:w-2/3 w-full  mx-auto">
+        <div className="w-full  mx-auto">
           <Swiper
-            slidesPerview={1.2}
+            slidesPerview={1.3}
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
             }}
             loop={true}
