@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../assets/profile.jpg'
+import hero from '../assets/1690599118750 (1).jpg'
 
 const Hero = () => {
     const social_media =[
@@ -14,7 +14,7 @@ const Hero = () => {
             <section id='home' 
             className='min-h-screen flex py-10 md:flex-row flex-col items-center'>
                 <div className='flex-1 flex items-center justify-center h-full'>
-                    <img src={hero} alt="" className='md:w-11/12 h-full object-cover pt-5' />
+                    <img src={hero} alt="" className='md:w-11/12 h-full pt-5' />
                 </div>
                 <div className='flex-1'>
                     <div className='md:text-left text-center'>
@@ -23,9 +23,8 @@ const Hero = () => {
                                 Hello!
                                 <br />
                                 </span>
-                                My Name is <span>Antu</span>
-                            
-                        </h1>
+                                I am <span>Antu</span></h1>
+                                <p className='text-lg'>A multidisciplinary developer and designer with a passion <br /> for creating engaging, entertaining user experience.</p>
                         <h4 className='md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600'>Front End Developer</h4>
                         <button className='btn-primary mt-8'>Contact Me</button>
                         <div className='mt-8 text-3xl flex items-center md:justify-start justify-center gap-5'>

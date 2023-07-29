@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/Country-project.png";
+import project2 from "../assets/to-do.png"
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -9,23 +10,23 @@ import "swiper/css/pagination";
 const Project = () => {
   const projects = [
     {
-      img: "",
-      github_link: "",
-      live_link: "",
+      img: project1,
+      github_link: "https://github.com/antar-cd/rest-counrty-api.git",
+      live_link: "https://beamish-mochi-9d16e6.netlify.app/",
     },
     {
-      img: "",
-      github_link: "",
-      live_link: "",
+      img: project2,
+      github_link: "https://github.com/antar-cd/to-do-app.git",
+      live_link: "https://to-do-app-fawn-iota.vercel.app/",
     },
     {
-      img: "",
-      github_link: "",
-      live_link: "",
+      img: project2,
+      github_link: "https://github.com/antar-cd/medicine-doctor-client.git",
+      live_link: "https://to-do-app-fawn-iota.vercel.app/",
     }
   ];
   return (
-    <section id="project" className="py-10 text-white">
+    <section id="projects" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Project</span>
@@ -52,8 +53,7 @@ const Project = () => {
             }}
            /*  modules={[Pagination,Autoplay]} */
           >
-            {/* 
-             */}
+           
             {
                 projects.map((Project_info,i)=>(
                     <SwiperSlide key={i}>

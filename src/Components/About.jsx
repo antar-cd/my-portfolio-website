@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImg from '../assets/About image.jpg'
+import aboutImg from '../assets/1690599118750 (1).jpg'
+import cv from '../assets/Resume update file.pdf'
 
 const About = () => {
     const info =[
@@ -17,8 +18,10 @@ const About = () => {
                 <div className='flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
                     <div className='p-2'>
                         <div className='text-gray-300 my-3'>
-                            <p className='text-justify leading-7 w-11/12 mx-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit rem accusamus distinctio esse sint soluta ullam obcaecati, eaque nostrum similique, accusantium blanditiis. Iste vitae ipsa quos repellendus nam! Laboriosam, quisquam. Explicabo, commodi ipsa sequi excepturi ipsum id, ipsam incidunt deserunt reiciendis et debitis. Recusandae maiores fuga dicta laborum explicabo necessitatibus reiciendis? Modi dolores natus qui, dolore reiciendis porro odit fuga!</p>
-                            <div className='flex mt-10 items-center gap-7'>
+                            <p className='text-justify leading-7 w-11/12 mx-auto'>Hello again! Thanks for scrolling this far!! I have completed my Diploma in Agriculture from Agriculture Training Institute, Begumganj,Noakhali.</p>
+                            <br />
+                            <p> I am a passionate front-end developer from figital Bangladesh. I have a strong love for creating beautiful and user-friendly websites that leave a lasting impression.
+                                Other than coding, I spend most of my free time playing video games . I've also been trying to read more so feel free to reach out to me with any book recommendations!</p><div className='flex mt-10 items-center gap-7'>
                                 {
                                     info.map(content =>(
                                         <div key={content.text}>
@@ -32,7 +35,7 @@ const About = () => {
                             </div>
                             <br/>
                             <br/>
-                            <a href="">
+                            <a href={cv}>
                             <button className='btn-primary'>Download cv</button>
                             </a>
                         </div>
